@@ -21,7 +21,7 @@ To use it with pip include the following line into `requirements.txt`:
 
 
 ```
--e git+git://github.com/Phlip/Kozmiq.git#egg=Kozmiq
+-e git+git://github.com/dudarev/pyqrcode.git#egg=pyqrcode
 ```
 
 and then `pip install -E . -r requirements.txt` (if using withing virtualenv, otherwise omit `-E .`).
