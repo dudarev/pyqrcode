@@ -16,3 +16,12 @@ qr_code = pyqrcode.MakeQR("test test")
 qr_image = qr_code.make_image(block_in_pixels=50, border_in_blocks=0)
 qr_image.save("qr.gif", "GIF")
 ```
+
+To use it with pip include the following line into `requirements.txt`:
+
+
+```
+-e git+git://github.com/Phlip/Kozmiq.git#egg=Kozmiq
+```
+
+and then `pip install -E . -r requirements.txt` (if using withing virtualenv, otherwise omit `-E .`).
