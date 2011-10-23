@@ -25,5 +25,3 @@ To use it with pip include the following line into `requirements.txt`:
 ```
 
 and then `pip install -E . -r requirements.txt` (if using withing virtualenv, otherwise omit `-E .`).
-
-test
