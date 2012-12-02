@@ -13,7 +13,10 @@
 #
 
 import math
-from PIL import Image, ImageDraw
+try:
+	from PIL import Image, ImageDraw
+except:
+	import Image, ImageDraw
 
 #QRCode for Python
 #
