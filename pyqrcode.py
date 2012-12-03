@@ -13,6 +13,10 @@
 #
 
 import math
+# There is a confusion on how PIL could be imported
+# On some imports this is from PIL imort Image
+# on others it is import Image
+# http://stackoverflow.com/questions/8863917/importerror-no-module-named-pil
 try:
 	from PIL import Image, ImageDraw
 except:
