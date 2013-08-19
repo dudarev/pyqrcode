@@ -15,7 +15,7 @@
 import math
 try:
 	from PIL import Image, ImageDraw
-except:
+except ImportError:
 	import Image, ImageDraw
 
 #QRCode for Python
