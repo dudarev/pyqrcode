@@ -19,7 +19,7 @@ import math
 # http://stackoverflow.com/questions/8863917/importerror-no-module-named-pil
 try:
 	from PIL import Image, ImageDraw
-except:
+except ImportError:
 	import Image, ImageDraw
 
 #QRCode for Python
